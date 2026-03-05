@@ -20,7 +20,7 @@ def correct():
 
 @app.route("/wrong",methods=["GET","POST"])
 def wrong():
-    return(render_template("correct.html"))
+    return(render_template("wrong.html"))
 
 if __name__=="__main__":
     app.run()
